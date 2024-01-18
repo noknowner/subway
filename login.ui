@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>login</class>
+ <widget class="QDialog" name="login">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QLineEdit" name="lineEdit_username">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>90</y>
+     <width>113</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>90</y>
+     <width>91</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>管理员账号</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_password">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>140</y>
+     <width>113</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>140</y>
+     <width>81</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>管理员密码</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_usr">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>170</y>
+     <width>141</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>记住用户</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox_pwd">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>200</y>
+     <width>161</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>记住密码</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_signUp">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>230</y>
+     <width>89</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>登入</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_clear">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>230</y>
+     <width>89</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>清除</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_Setting">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>10</y>
+     <width>50</width>
+     <height>50</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="icon">
+    <iconset theme="application-x-executable"/>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>50</width>
+     <height>50</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_reconnect">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>270</y>
+     <width>89</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>重连</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -6,26 +6,588 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>1225</width>
+    <height>644</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
-  <widget class="QWidget" name="centralwidget"/>
-  <widget class="QMenuBar" name="menubar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>800</width>
-     <height>27</height>
-    </rect>
-   </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_logo">
+      <property name="text">
+       <string>TextLabel</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QGroupBox" name="groupBox_2">
+      <property name="title">
+       <string/>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="0" column="0">
+        <widget class="QPushButton" name="all_line_pb">
+         <property name="minimumSize">
+          <size>
+           <width>100</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>200</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>全图</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="2">
+        <widget class="QPushButton" name="line9_pb">
+         <property name="minimumSize">
+          <size>
+           <width>100</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>200</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>9号线</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QPushButton" name="line8_pb">
+         <property name="minimumSize">
+          <size>
+           <width>100</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>200</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>8号线</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QPushButton" name="line1_pb">
+         <property name="minimumSize">
+          <size>
+           <width>100</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>200</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>1号线</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <widget class="QPushButton" name="line2_pb">
+         <property name="minimumSize">
+          <size>
+           <width>100</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>200</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>2号线</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="4">
+        <widget class="QPushButton" name="line3_pb">
+         <property name="minimumSize">
+          <size>
+           <width>100</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>200</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>3号线</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="4">
+        <widget class="QPushButton" name="line10_pb">
+         <property name="minimumSize">
+          <size>
+           <width>100</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>200</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>10号线</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="6">
+        <widget class="QPushButton" name="line5_pb">
+         <property name="minimumSize">
+          <size>
+           <width>100</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>200</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>5号线</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="7">
+        <widget class="QPushButton" name="line6_pb">
+         <property name="minimumSize">
+          <size>
+           <width>100</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>200</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>6号线</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <widget class="QPushButton" name="line7_pb">
+         <property name="minimumSize">
+          <size>
+           <width>100</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>200</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>7号线</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="5">
+        <widget class="QPushButton" name="line4_pb">
+         <property name="minimumSize">
+          <size>
+           <width>100</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>200</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>4号线</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="5">
+        <widget class="QPushButton" name="line11_pb">
+         <property name="minimumSize">
+          <size>
+           <width>100</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>200</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>11号线</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="6">
+        <widget class="QPushButton" name="line12_pb">
+         <property name="minimumSize">
+          <size>
+           <width>100</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>200</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>12号线</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="7">
+        <widget class="QPushButton" name="line13_pb">
+         <property name="minimumSize">
+          <size>
+           <width>100</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>200</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>13号线</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QGroupBox" name="groupBox">
+      <property name="title">
+       <string/>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QPushButton" name="ticket1_pb">
+         <property name="minimumSize">
+          <size>
+           <width>100</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>2元</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="ticket2_pb">
+         <property name="minimumSize">
+          <size>
+           <width>100</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>3元</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="ticket3_pb">
+         <property name="minimumSize">
+          <size>
+           <width>100</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>4元</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="ticket4_pb">
+         <property name="minimumSize">
+          <size>
+           <width>100</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>5元</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="ticket5_pb">
+         <property name="minimumSize">
+          <size>
+           <width>100</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>6元</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="ticket6_pb">
+         <property name="minimumSize">
+          <size>
+           <width>100</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>7元</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="ticket7_pb">
+         <property name="minimumSize">
+          <size>
+           <width>100</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>8元</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="ticket8_pb">
+         <property name="minimumSize">
+          <size>
+           <width>100</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>9元</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="ticket9_pb">
+         <property name="minimumSize">
+          <size>
+           <width>100</width>
+           <height>40</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>10元</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="TGraphicsView" name="graphicsView">
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::WheelFocus</enum>
+      </property>
+      <property name="viewportUpdateMode">
+       <enum>QGraphicsView::SmartViewportUpdate</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="2">
+     <widget class="QGroupBox" name="groupBox_3">
+      <property name="title">
+       <string/>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QPushButton" name="pushButton_4">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Maximum" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>15</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>100</width>
+           <height>60</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>解放碑</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_3">
+         <property name="minimumSize">
+          <size>
+           <width>100</width>
+           <height>60</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>朝天门</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_2">
+         <property name="minimumSize">
+          <size>
+           <width>100</width>
+           <height>60</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>洪崖洞</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton">
+         <property name="minimumSize">
+          <size>
+           <width>100</width>
+           <height>60</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>磁器口</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="pushButton_5">
+         <property name="minimumSize">
+          <size>
+           <width>100</width>
+           <height>60</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>南山一棵树</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="2" column="2">
+     <widget class="QLabel" name="label_ipinfo">
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
+ <customwidgets>
+  <customwidget>
+   <class>TGraphicsView</class>
+   <extends>QGraphicsView</extends>
+   <header location="global">tgraphicsview.h</header>
+  </customwidget>
+ </customwidgets>
  <resources/>
  <connections/>
 </ui>
