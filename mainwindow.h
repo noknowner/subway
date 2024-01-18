@@ -185,6 +185,16 @@ private slots:
 
     void on_ticket9_pb_clicked();
 
+    void on_pushButton_jfb_clicked();
+
+    void on_pushButton_ctm_clicked();
+
+    void on_pushButton_hyd_clicked();
+
+    void on_pushButton_cqk_clicked();
+
+    void on_pushButton_nsyks_clicked();
+
 protected:
     void wheelEvent(QWheelEvent *event);
 private:

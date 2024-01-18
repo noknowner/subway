@@ -632,7 +632,7 @@ void MainWindow::do_mouseClicked(QPoint point) {
     qint16 v1,v2;
     QString endstationName;
 
-    QString startStationName = "上新街";
+    QString startStationName = "重庆北站北广场";
 
 
     if (item != nullptr) {
@@ -914,30 +914,121 @@ void MainWindow::on_ticket9_pb_clicked()
 
 void MainWindow::on_pushButton_jfb_clicked()
 {
+    qint16 v1,v2;
+    QString endstationName = "小什字";
 
+    QString startStationName = "重庆北站北广场";
+    v1=SearchMap(startStationName);
+
+    v2=SearchMap(endstationName);
+
+
+    dijkstra(v1,v2,subwayMap);
+
+    tracePath1(v1,v2,prev1);
+    PrintPath(v1,v2,ConsumeInfo);
+    emit showPayWidget();
+    emit sendPath(ConsumeInfo.path);
+    emit targetStation(startStationName,endstationName);
+    emit sendCost(ConsumeInfo.money);
+
+    ConsumeInfo={};
 }
 
 
 void MainWindow::on_pushButton_ctm_clicked()
 {
+    qint16 v1,v2;
+    QString endstationName = "朝天门";
 
+    QString startStationName = "重庆北站北广场";
+    v1=SearchMap(startStationName);
+
+    v2=SearchMap(endstationName);
+
+
+    dijkstra(v1,v2,subwayMap);
+
+    tracePath1(v1,v2,prev1);
+    PrintPath(v1,v2,ConsumeInfo);
+    emit showPayWidget();
+    emit sendPath(ConsumeInfo.path);
+    emit targetStation(startStationName,endstationName);
+    emit sendCost(ConsumeInfo.money);
+
+    ConsumeInfo={};
 }
 
 
 void MainWindow::on_pushButton_hyd_clicked()
 {
+    qint16 v1,v2;
+    QString endstationName = "临江门";
+
+    QString startStationName = "重庆北站北广场";
+    v1=SearchMap(startStationName);
+
+    v2=SearchMap(endstationName);
+
+
+    dijkstra(v1,v2,subwayMap);
+
+    tracePath1(v1,v2,prev1);
+    PrintPath(v1,v2,ConsumeInfo);
+    emit showPayWidget();
+    emit sendPath(ConsumeInfo.path);
+    emit targetStation(startStationName,endstationName);
+    emit sendCost(ConsumeInfo.money);
+
+    ConsumeInfo={};
 
 }
 
 
 void MainWindow::on_pushButton_cqk_clicked()
 {
+    qint16 v1,v2;
+    QString endstationName = "磁器口";
 
+    QString startStationName = "重庆北站北广场";
+    v1=SearchMap(startStationName);
+
+    v2=SearchMap(endstationName);
+
+
+    dijkstra(v1,v2,subwayMap);
+
+    tracePath1(v1,v2,prev1);
+    PrintPath(v1,v2,ConsumeInfo);
+    emit showPayWidget();
+    emit sendPath(ConsumeInfo.path);
+    emit targetStation(startStationName,endstationName);
+    emit sendCost(ConsumeInfo.money);
+
+    ConsumeInfo={};
 }
 
 
 void MainWindow::on_pushButton_nsyks_clicked()
 {
+    qint16 v1,v2;
+    QString endstationName = "上新街";
 
+    QString startStationName = "重庆北站北广场";
+    v1=SearchMap(startStationName);
+
+    v2=SearchMap(endstationName);
+
+
+    dijkstra(v1,v2,subwayMap);
+
+    tracePath1(v1,v2,prev1);
+    PrintPath(v1,v2,ConsumeInfo);
+    emit showPayWidget();
+    emit sendPath(ConsumeInfo.path);
+    emit targetStation(startStationName,endstationName);
+    emit sendCost(ConsumeInfo.money);
+
+    ConsumeInfo={};
 }
 

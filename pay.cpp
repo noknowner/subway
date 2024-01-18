@@ -24,7 +24,7 @@ void pay::initialPayDialog()
 {
     show();
     ui->pathlabel->setWordWrap(true);
-    QPixmap pixmap(":/new/prefix1/generate.png");
+    QPixmap pixmap(":/res/png/generate.png");
     pixmap = pixmap.scaled(ui->pixlabel->size(), Qt::KeepAspectRatio, Qt::SmoothTransformation);
     ui->pixlabel->setPixmap(pixmap);
     ui->pixlabel->setAlignment(Qt::AlignCenter);

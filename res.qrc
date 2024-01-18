@@ -3,5 +3,6 @@
         <file>res/config/config.ini</file>
         <file>res/json/config.json</file>
         <file>res/png/Chongqing_Rail_Transit_logo.png</file>
+        <file>res/png/generate.png</file>
     </qresource>
 </RCC>
